@@ -1,0 +1,7 @@
+curl -X POST http://localhost:3001/login \
+     -H "Content-Type: application/json" \
+     -d '{"username": "testuser", "password": "testpass"}'
+
+curl -X POST http://localhost:3001/register \
+     -H "Content-Type: application/json" \
+     -d '{"username": "testuser", "password": "testpass"}'

@@ -1,0 +1,52 @@
+
+GET http://localhost:3000/recipes
+
+###
+POST http://localhost:3000/recipes
+Content-Type: application/json
+
+{
+  "name": "Grilled Cheese3",
+  "ingredients": [
+    { "name": "Bread", "quantity": "2 slices" },
+    { "name": "Cheese", "quantity": "2 slices" }
+  ],
+  "directions": "Grill on both sides until golden brown",
+  "time": "10 minutes",
+  "review": 4.8
+}
+
+
+###
+POST http://localhost:3000/recipes
+Content-Type: application/json
+
+{
+  "name": "Sample",
+  "ingredients": [
+    { "name": "Ingredient1", "quantity": "2 slices" },
+    { "name": "Ingredient2", "quantity": "2 slices" }
+  ],
+  "directions": "Grill on both sides until golden brown",
+  "time": "10 minutes",
+  "review": 4.8
+}
+
+###
+DELETE http://localhost:3000/recipes/6819791a8fa83ffa5b830190
+
+###
+
+PUT http://localhost:3000/recipes/6817fbfbaacec4fb69b88395
+Content-Type: application/json
+
+{
+  "name": "New Grilled Cheese (PUT)",
+  "ingredients": [
+    { "name": "ingredient1", "quantity": "1000 cups" },
+    { "name": "ingredient2", "quantity": "1 tbsp" }
+  ],
+  "directions": "New cooking instructions.",
+  "time": "30 minutes",
+  "review": 4
+}

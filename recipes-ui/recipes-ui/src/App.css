@@ -1,0 +1,52 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+.content {
+  margin: 20px;
+}
+
+.recipes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.recipe-card {
+  background-color: #f4f4f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.nutrition-box, .health-fact {
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+h2, h3, h4 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+p {
+  font-size: 1rem;
+}
